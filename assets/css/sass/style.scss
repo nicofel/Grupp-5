@@ -3,7 +3,7 @@ Name: Google News SASS
 Version: 1.0
 */
 
-@import "colors.scss"; /*Colors SASS file*/ 
+@import "colors.scss"; /*Colors SASS file*/
 @import "mixin.scss"; /*Mixin SASS file*/
 @import "fonts.scss"; /*Fonts SASS file*/
 @import "header.scss"; /*Header SASS file*/
@@ -19,6 +19,10 @@ body {
 	font-family:$primary-font;
 	font-size:13pt;
 	color:black;
+}
+
+.row img {
+  object-fit: cover;
 }
 
 @media screen and (max-width : 1024px) {
