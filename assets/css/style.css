@@ -539,6 +539,16 @@ body {
 .tom {
   border-bottom: 1px solid #cccccc;
   margin-bottom: 50px;
+  width: 200%;
+  margin-left: -200px;
+}
+
+.tomfooter {
+  border-top: 1px solid #cccccc;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  width: 200%;
+  margin-left: -200px;
 }
 
 .paragraphtext {
