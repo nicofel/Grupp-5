@@ -523,6 +523,33 @@ body {
   }
 }
 
+.fullpadding {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.rowtext {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  display: flex;
+}
+
+
+
+
+.tom {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 50px;
+}
+
+.paragraphtext {
+  padding-left: 50px;
+}
+
+
+
+
 /*------FOOTER-----*/
 #footer {
   width: 100%;
