@@ -1,177 +1,205 @@
-!<!DOCTYPE html>
+!
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Who we are</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
     <section role="main" id="wrapper">
-      <!--Header-->
-      <header id="header" class="header">
-        <div id="branding">
-          <img src="assets/google-logo-animation.gif">
+        <!--Header-->
+        <header id="header" class="header">
+            <div id="branding">
+                <img src="assets/google-logo-animation.gif">
+            </div>
+            <h1>News</h1>
+            <!--Menu-->
+            <nav id="menu" class="menu">
+                <ul>
+                    <li>
+                        <a href="/Offerings">What we do</a>
+                    </li>
+                    <li>
+                        <a href="whoweare.html">Who we are</a>
+                    </li>
+                    <li>
+                        <a href="/Customers">Customers</a>
+                    </li>
+                    <li>
+                        <a href="/Careers">Career</a>
+                    </li>
+                    <li>
+                        <a href="/Investor-relations">IR</a>
+                    </li>
+                    <li>
+                        <a href="/Latest" class="current">Latest</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="search">
+                        <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles"
+                            title="Type in title search term">
+                    </li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="whoweare">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>5000 <br>
+                        People employed
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>1967<br>
+                        Year founded
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>50+<br>
+                        Countries with subscribers
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>100<br>
+                        News per day
+                    </p>
+                </div>
+            </div>
         </div>
-        <h1>News</h1>
-        <!--Menu-->
-        <nav id="menu" class="menu">
-          <ul>
-            <li>
-              <a href="/Offerings">What we do</a>
-            </li>
-            <li>
-              <a href="whoweare.html">Who we are</a>
-            </li>
-            <li>
-              <a href="/Customers">Customers</a>
-            </li>
-            <li>
-              <a href="/Careers">Career</a>
-            </li>
-            <li>
-              <a href="/Investor-relations">IR</a>
-            </li>
-            <li>
-              <a href="/Latest" class="current">Latest</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-            <li class="search">
-              <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
-            </li>
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="whoweare">
-        <div class="row">
-            <div class="col-sm-3">
-                <p>5000 <br>
-                    People employed
-                </p>
-            </div>
-            <div class="col-sm-3">
-                <p>1967<br>
-                    Year founded
-                </p>
-            </div>
-            <div class="col-sm-3">
-                <p>50+<br>
-                    Countries with subscribers
-                </p>
-            </div>
-            <div class="col-sm-3">
-                <p>100<br>
-                    News per day
-                </p>
-            </div>
-        </div>
-    </div>
 
-    <h2>Our Story</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor non metus vel convallis. Sed tortor nunc, porta non blandit at, euismod eget nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis arcu mauris, scelerisque eget egestas vel, tempor sed lorem. Proin luctus, massa sit amet gravida placerat, nisl odio pretium justo, quis imperdiet ex odio in lorem. Suspendisse potenti. Donec vel ultricies magna. Cras consequat neque eget viverra dapibus. Maecenas quis lacus fringilla, ultricies sapien condimentum, rhoncus dui. Nulla facilisi. Cras aliquet, est non blandit maximus, ligula turpis elementum nulla, in consectetur orci nisi ac odio.
+        <article class="paragraphtext"></article>
+        <h2>Our Story</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor non metus vel convallis. Sed
+            tortor nunc, porta non blandit at, euismod eget nisl. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Duis arcu mauris, scelerisque eget egestas vel, tempor sed lorem.
+            Proin luctus, massa sit amet gravida placerat, nisl odio pretium justo, quis imperdiet ex odio in lorem.
+            Suspendisse potenti. Donec vel ultricies magna. Cras consequat neque eget viverra dapibus. Maecenas quis
+            lacus fringilla, ultricies sapien condimentum, rhoncus dui. Nulla facilisi. Cras aliquet, est non blandit
+            maximus, ligula turpis elementum nulla, in consectetur orci nisi ac odio.</p>
 
-Duis interdum felis suscipit tellus semper, vel volutpat lectus ornare. Vestibulum id scelerisque massa. Cras vehicula nunc quis venenatis ultricies. Duis nec facilisis neque. Phasellus lobortis magna sed tincidunt suscipit. Proin sollicitudin, sapien quis blandit dapibus, nunc libero varius sem, eget hendrerit diam metus nec diam. Nulla aliquet neque at enim porta, sed placerat urna elementum. Mauris suscipit elementum lobortis. Nunc viverra posuere nulla id accumsan. Morbi mi neque, gravida sit amet justo sit amet, blandit dignissim quam. Morbi dignissim porta urna, sed vulputate urna rutrum et. Sed eget dui sit amet est porta sodales. Nulla facilisi.
+            <p>Duis interdum felis suscipit tellus semper, vel volutpat lectus ornare. Vestibulum id scelerisque massa.
+            Cras vehicula nunc quis venenatis ultricies. Duis nec facilisis neque. Phasellus lobortis magna sed
+            tincidunt suscipit. Proin sollicitudin, sapien quis blandit dapibus, nunc libero varius sem, eget hendrerit
+            diam metus nec diam. Nulla aliquet neque at enim porta, sed placerat urna elementum. Mauris suscipit
+            elementum lobortis. Nunc viverra posuere nulla id accumsan. Morbi mi neque, gravida sit amet justo sit amet,
+            blandit dignissim quam. Morbi dignissim porta urna, sed vulputate urna rutrum et. Sed eget dui sit amet est
+            porta sodales. Nulla facilisi.</p>
 
-Phasellus suscipit purus nec erat egestas, vitae lacinia massa venenatis. Curabitur eros felis, interdum at erat sed, tincidunt feugiat nunc. Vestibulum lorem est, viverra at dignissim non, lacinia in purus. Maecenas non ipsum quis justo tincidunt efficitur. Pellentesque pulvinar cursus purus, eu hendrerit velit eleifend sit amet. Donec sed leo at metus dignissim dignissim vel id ante. Donec id vehicula libero.</p>
-
-<!--MEET THE TEAM. Section 1-->
-      <section class="row">
-        <article class="col-2">
-          <img src="images/asa.jpg" alt="xxx">
+            <p>Phasellus suscipit purus nec erat egestas, vitae lacinia massa venenatis. Curabitur eros felis, interdum at
+            erat sed, tincidunt feugiat nunc. Vestibulum lorem est, viverra at dignissim non, lacinia in purus. Maecenas
+            non ipsum quis justo tincidunt efficitur. Pellentesque pulvinar cursus purus, eu hendrerit velit eleifend
+            sit amet. Donec sed leo at metus dignissim dignissim vel id ante. Donec id vehicula libero.</p>
         </article>
-        <article class="col-2">
-          <img src="images/ali.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/nico.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/sofia.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="xxx.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/nina.png" alt="xxx">
-        </article>
-      </section>
-<!--slut-->
-<!--MEET THE TEAM. Section 2-->
-      <section class="row">
-        <article class="col-2">
-          <img src="images/asa.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/frida.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/marcus-andersson.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/niclas.png" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="xxx.jpg" alt="xxx">
-        </article>
-        <article class="col-2">
-          <img src="images/nina.png" alt="xxx">
-        </article>
-      </section>
-<!--slut-->
+        <!--MEET THE TEAM. Section 1-->
+        <section class="row">
+            <article class="col-2">
+                <img src="images/asa.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/ali.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/nico.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/sofia.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="xxx.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/nina.png" alt="xxx">
+            </article>
+        </section>
+        <!--slut-->
+        <!--MEET THE TEAM. Section 2-->
+        <section class="row">
+            <article class="col-2">
+                <img src="images/asa.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/frida.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/marcus-andersson.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/niclas.png" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="xxx.jpg" alt="xxx">
+            </article>
+            <article class="col-2">
+                <img src="images/nina.png" alt="xxx">
+            </article>
+        </section>
+        <!--slut-->
 
-      <footer>
-
-
-        <ul class="social_icon">
-
-          <li><ion-icon name="logo-linkedin"></ion-icon></a></li>
-          <li></ion-icon></a></li>
-          <li><ion-icon name="logo-instagram"></ion-icon></a></li>
-
-        </ul>
-
-        <div class="row">
-          <div class="col-sm-3">
-               <ul>
-                 <li>About Us</li>
-                 <li>What we do</li>
-                 <li>Who we are</li>
-               </ul>
-          </div>
-
-          <div class="col-sm-3">
-               <ul>
-                 <li>About You</li>
-                 <li>Costumers</li>
-                 <li>Latest</li>
-               </ul>
-          </div>
-
-          <div class="col-sm-3">
-               <ul>
-                 <li>Adress</li>
-                 <li>Ebbe Lieberathsgatan 18c</li>
-                 <li>Göteborg</li>
-               </ul>
-          </div>
-
-          <div class="col-sm-3">
-               <ul>
-                 <li>Copyright 2022 Google News</li>
-
-               </ul>
-          </div>
-      </ul>
+        <footer>
 
 
-      </footer>
+            <ul class="social_icon">
 
-  </body>
+                <li>
+                    <ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+                <li>
+                    </ion-icon></a></li>
+                <li>
+                    <ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
+
+            </ul>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul>
+                        <li>About Us</li>
+                        <li>What we do</li>
+                        <li>Who we are</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <li>About You</li>
+                        <li>Costumers</li>
+                        <li>Latest</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <li>Adress</li>
+                        <li>Ebbe Lieberathsgatan 18c</li>
+                        <li>Göteborg</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <li>Copyright 2022 Google News</li>
+
+                    </ul>
+                </div>
+                </ul>
+
+
+        </footer>
+
+</body>
+
 </html>
