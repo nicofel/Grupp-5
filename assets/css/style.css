@@ -544,6 +544,8 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
   margin-top: 50px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 #Tochheading {
@@ -557,6 +559,8 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 #Bilderteam {
@@ -569,10 +573,37 @@ body {
   margin-bottom: 50px;
 }
 
+.bold {
+  font-weight: 600;
+}
+
+.bildskolaninne {
+  margin-left: -20px;
+  width: 106%;
+  margin-bottom: 50px;
+}
+
+.paragraphtext {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
 .Linje {
   width: 200%;
   margin-left: -200px;
-  margin-top: 130px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Linjesist {
+  width: 200%;
+  margin-left: -200px;
+}
+
+.whoweare {
+  margin-top: 30px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .teamp {
