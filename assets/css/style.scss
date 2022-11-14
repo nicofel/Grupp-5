@@ -29,7 +29,6 @@ body {
 @media screen and (max-width : 1024px) {
 
 	/*All Devices*/
-
 	html.touch *:hover {
     	pointer-events: none !important;
 	}
@@ -63,6 +62,47 @@ body {
 	width: 100%;
 }
 
+/*------Google Maps-----*/
+.Googlemaps {
+margin: 0 auto;
+}
+
+/*------Get in Touch-----*/
+
+.getintouch {
+width: 1185px;
+height: 95px;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+
+#Tochheading{
+margin: 0 auto;
+margin-bottom: 30px;
+font-size: 30px;
+width: 1233px;
+height: 30px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+}
+
+#Bilderteam {
+	margin-top: 200px;
+}
+
+.Bildskolanute {
+ margin-left: -20px;
+ width: 106%;
+ margin-bottom: 50px;
+}
+
+.Linje {
+	width: 200%;
+	margin-left: -200px;
+	margin-top: 130px;
+}
 
 #embed-map-display .text-marker
 
