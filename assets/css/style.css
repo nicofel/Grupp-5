@@ -542,11 +542,13 @@ body {
   width: 1185px;
   height: 95px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 #Tochheading {
   margin: 0 auto;
+  margin-top: 10px;
   margin-bottom: 30px;
   font-size: 30px;
   width: 1233px;
@@ -558,7 +560,7 @@ body {
 }
 
 #Bilderteam {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .Bildskolanute {
@@ -571,6 +573,17 @@ body {
   width: 200%;
   margin-left: -200px;
   margin-top: 130px;
+}
+
+.teamp {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.Bildisection {
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 #embed-map-display .text-marker .map-generator {
