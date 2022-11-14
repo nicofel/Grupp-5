@@ -558,7 +558,31 @@ body {
 }
 
 #Bilderteam {
-  margin-top: 200px;
+  margin-top: 100px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+#Bilderteam h2 {
+  margin-top: 1px;
+}
+
+.teamh1 {
+  position: absolute;
+  width: 1233px;
+  height: 30px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
+  padding-left: 8%;
+  margin-top: 40px;
+}
+
+.Bilderisection {
+  margin: 0 auto;
 }
 
 .Bildskolanute {
@@ -570,7 +594,7 @@ body {
 .Linje {
   width: 200%;
   margin-left: -200px;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 #embed-map-display .text-marker .map-generator {
