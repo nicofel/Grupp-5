@@ -62,13 +62,16 @@ body {
 	width: 100%;
 }
 
+.Bold {
+	font-weight: bolder;
+}
+
 /*------Google Maps-----*/
 .Googlemaps {
 margin: 0 auto;
 }
 
 /*------Get in Touch-----*/
-
 .getintouch {
 width: 1185px;
 height: 95px;
@@ -76,28 +79,32 @@ margin: 0 auto;
 margin-bottom: 30px;
 }
 
+
 #Tochheading{
 margin: 0 auto;
 margin-bottom: 30px;
 font-size: 30px;
-width: 1233px;
-height: 30px;
 font-family: 'Playfair Display';
 font-style: normal;
-font-weight: 400;
-font-size: 25px;
+font-size: 30px;
+margin-left: 100px;
+margin-bottom: 45px;
 }
 
+
+
+/*------Bilder på teamet-----*/
 #Bilderteam {
 	margin-top: 200px;
 }
-
+/*------Bild på skolan utifrån-----*/
 .Bildskolanute {
  margin-left: -20px;
  width: 106%;
  margin-bottom: 50px;
 }
 
+/*------Linjen-----*/
 .Linje {
 	width: 200%;
 	margin-left: -200px;
