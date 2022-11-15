@@ -8,6 +8,7 @@ Version: 1.0
 @import "fonts.scss"; /*Fonts SASS file*/
 @import "header.scss"; /*Header SASS file*/
 @import "articles.scss"; /*Articles SASS file*/
+@import "footer.scss";
 
 body {
 	padding: 0;
@@ -109,17 +110,18 @@ margin-bottom: 38px;
 	margin-top: 2px;
 }
 /*------Bilder på skolan-----*/
-.Bildskolanute {
- margin-left: -20px;
- width: 106%;
- margin-bottom: 50px;
-}
 
 .bildskolaninne {
- margin-left: -20px;
- width: 106%;
- margin-bottom: 50px;
+	margin-left: -20px;
+	width: 106%;
+	margin-bottom: 50px;
 }
+
+.Bildskolanute {
+	@extend .bildskolaninne;
+}s
+
+
 
 .bold {
 	font-weight: 600;

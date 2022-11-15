@@ -576,19 +576,13 @@ body {
 }
 
 /*------Bilder på skolan-----*/
-.Bildskolanute {
+.bildskolaninne, .Bildskolanute {
   margin-left: -20px;
   width: 106%;
   margin-bottom: 50px;
 }
 
-.bildskolaninne {
-  margin-left: -20px;
-  width: 106%;
-  margin-bottom: 50px;
-}
-
-.bold {
+s .bold {
   font-weight: 600;
 }
 
