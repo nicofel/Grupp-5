@@ -94,11 +94,19 @@ padding-left: 8%;
 padding-right: 8%;
 }
 
+
+/*------Bilder på teamet-----*/
 #Bilderteam {
-	margin-top: 50px;
+	margin-top: 5px;
+}
+/*------Bilder på skolan-----*/
+.Bildskolanute {
+ margin-left: -20px;
+ width: 106%;
+ margin-bottom: 50px;
 }
 
-.Bildskolanute {
+.bildskolaninne {
  margin-left: -20px;
  width: 106%;
  margin-bottom: 50px;
@@ -108,46 +116,71 @@ padding-right: 8%;
 	font-weight: 600;
 }
 
-.bildskolaninne {
- margin-left: -20px;
- width: 106%;
- margin-bottom: 50px;
-}
 
+
+/*------Paragraph padding-----*/
 .paragraphtext  {
 	padding-left: 8%;
 	padding-right: 8%;
 }
 
+.paragraphtext h2 {
+	font-size: 19px;
+  font-weight: bold;
+}
+
+/*------Line break-----*/
 .Linje {
 	width: 200%;
 	margin-left: -200px;
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 }
-
+/*------Line break över footer-----*/
 .Linjesist {
 	width: 200%;
 	margin-left: -200px;
 }
 
-.whoweare {
+
+.whoweare h4 {
+	font-style: $primary-font;
+	font-weight: 400;
+}
+
+.whoweare  {
 	margin-top: 30px;
 	padding-left: 8%;
 	padding-right: 8%;
+	font-style: $primary-font;
+	font-weight: 400;
 }
 
-.teamp {
-	font-size: 19px;
-	font-weight: 600;
-	margin: 0 auto;
 
-}
+
 
 .Bildisection {
 	padding-left: 8%;
 	padding-right: 8%;
 }
+
+.Bildisection .paragraphtext {
+	font-size: 19px;
+  font-weight: bold;
+	margin-bottom: 35px;
+}
+
+.Bildisection h2 {
+	font-size: 19px;
+  font-weight: bold;
+	margin-bottom: -1px;
+}
+
+.Bildisection p {
+	font-style: "$secondary-font";
+	font-weight: 400;
+}
+
 
 #embed-map-display .text-marker
 
