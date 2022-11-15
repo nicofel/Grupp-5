@@ -1,86 +1,91 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <title>Who we are</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Who we are</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <section role="main" id="wrapper">
-      <!--Header-->
-      <header id="header" class="header">
-        <div id="branding">
-          <img src="assets/google-logo-animation.gif">
+  <section role="main" id="wrapper">
+    <!--Header-->
+    <header id="header" class="header">
+      <div id="branding">
+        <img src="assets/google-logo-animation.gif">
+      </div>
+      <h1>News</h1>
+      <!--Menu-->
+      <nav id="menu" class="menu">
+        <ul>
+          <li>
+            <a href="/Offerings">What we do</a>
+          </li>
+          <li>
+            <a href="whoweare.html">Who we are</a>
+          </li>
+          <li>
+            <a href="/Customers">Customers</a>
+          </li>
+          <li>
+            <a href="/Careers">Career</a>
+          </li>
+          <li>
+            <a href="/Investor-relations">IR</a>
+          </li>
+          <li>
+            <a href="/Latest" class="current">Latest</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="search">
+            <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles"
+              title="Type in title search term">
+          </li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Menu-->
+    <img src="Skolan_bild.png" class="bildskolaninne">
+    <section class="whoweare">
+      <div class="container">
+        <div class="box">
+          <h2>5000</h2>
+          <h2>
+            People employed
+          </h2>
         </div>
-        <h1>News</h1>
-        <!--Menu-->
-        <nav id="menu" class="menu">
-          <ul>
-            <li>
-              <a href="/Offerings">What we do</a>
-            </li>
-            <li>
-              <a href="whoweare.html">Who we are</a>
-            </li>
-            <li>
-              <a href="/Customers">Customers</a>
-            </li>
-            <li>
-              <a href="/Careers">Career</a>
-            </li>
-            <li>
-              <a href="/Investor-relations">IR</a>
-            </li>
-            <li>
-              <a href="/Latest" class="current">Latest</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-            <li class="search">
-              <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
-            </li>
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-            <!--Menu-->
-<img src="Skolan_bild.png" class="bildskolaninne">
-        <div class="whoweare">
-            <div class="row">
-                <div class="col-md-3">
-                    <h2>5000</h2>
-                        <p>People employed
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h2>1967</h2>
-                        <p>Year founded
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <h2>50+</h2>
-                      <p>Countries with subscribers
-                    </p>
-                </div>
-                <div class="col-md-3" id="News">
-                    <h2>100</h2>
-                        <p>News per day
-                    </p>
-                </div>
-            </div>
+
+        <div class="box">
+          <h2>1967</h2>
+          <h2>
+            Year founded
+          </h2>
         </div>
-        <hr class="Linje">
+
+        <div class="box">
+          <h2>50+</h2>
+          <h2>Countries with subscribers
+          </h2>
+        </div>
+
+        <div class="box">
+          <h2>100</h2>
+          <h2>News per day
+          </h2>
+        </div>
+
+      </div>
+    </section>
+    <hr class="Linje">
 
 
 
@@ -88,31 +93,36 @@
 
 
 
-        <article class="paragraphtext">
-          <div id="JavaScroll">
+    <article class="paragraphtext">
+      <div id="JavaScroll">
         <h2>Our Story</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor non metus vel convallis. Sed
-            tortor nunc, porta non blandit at, euismod eget nisl. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Duis arcu mauris, scelerisque eget egestas vel, tempor sed lorem.
-            Proin luctus, massa sit amet gravida placerat, nisl odio pretium justo, quis imperdiet ex odio in lorem.
-            Suspendisse potenti. Donec vel ultricies magna. Cras consequat neque eget viverra dapibus. Maecenas quis
-            lacus fringilla, ultricies sapien condimentum, rhoncus dui. Nulla facilisi. Cras aliquet, est non blandit
-            maximus, ligula turpis elementum nulla, in consectetur orci nisi ac odio.</p>
+          tortor nunc, porta non blandit at, euismod eget nisl. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Duis arcu mauris, scelerisque eget egestas vel, tempor sed lorem.
+          Proin luctus, massa sit amet gravida placerat, nisl odio pretium justo, quis imperdiet ex odio in lorem.
+          Suspendisse potenti. Donec vel ultricies magna. Cras consequat neque eget viverra dapibus. Maecenas quis
+          lacus fringilla, ultricies sapien condimentum, rhoncus dui. Nulla facilisi. Cras aliquet, est non blandit
+          maximus, ligula turpis elementum nulla, in consectetur orci nisi ac odio.</p>
 
-            <p>Duis interdum felis suscipit tellus semper, vel volutpat lectus ornare. Vestibulum id scelerisque massa.
-            Cras vehicula nunc quis venenatis ultricies. Duis nec facilisis neque. Phasellus lobortis magna sed
-            tincidunt suscipit. Proin sollicitudin, sapien quis blandit dapibus, nunc libero varius sem, eget hendrerit
-            diam metus nec diam. Nulla aliquet neque at enim porta, sed placerat urna elementum. Mauris suscipit
-            elementum lobortis. Nunc viverra posuere nulla id accumsan. Morbi mi neque, gravida sit amet justo sit amet,
-            blandit dignissim quam. Morbi dignissim porta urna, sed vulputate urna rutrum et. Sed eget dui sit amet est
-            porta sodales. Nulla facilisi.</p>
+        <p>Duis interdum felis suscipit tellus semper, vel volutpat lectus ornare. Vestibulum id scelerisque massa.
+          Cras vehicula nunc quis venenatis ultricies. Duis nec facilisis neque. Phasellus lobortis magna sed
+          tincidunt suscipit. Proin sollicitudin, sapien quis blandit dapibus, nunc libero varius sem, eget hendrerit
+          diam metus nec diam. Nulla aliquet neque at enim porta, sed placerat urna elementum. Mauris suscipit
+          elementum lobortis. Nunc viverra posuere nulla id accumsan. Morbi mi neque, gravida sit amet justo sit amet,
+          blandit dignissim quam. Morbi dignissim porta urna, sed vulputate urna rutrum et. Sed eget dui sit amet est
+          porta sodales. Nulla facilisi.</p>
 
-<p>Phasellus suscipit purus nec erat egestas, vitae lacinia massa venenatis. Curabitur eros felis, interdum at erat sed, tincidunt feugiat nunc. Vestibulum lorem est, viverra at dignissim non, lacinia in purus. Maecenas non ipsum quis justo tincidunt efficitur. Pellentesque pulvinar cursus purus, eu hendrerit velit eleifend sit amet. Donec sed leo at metus dignissim dignissim vel id ante. Donec id vehicula libero.</p>
-    </div>
-</article>
-<hr class="Linje">
-<!--MEET THE TEAM. Section 1-->
-<section class="Bildisection">
+        <p>Phasellus suscipit purus nec erat egestas, vitae lacinia massa venenatis. Curabitur eros felis, interdum at
+          erat sed, tincidunt feugiat nunc. Vestibulum lorem est, viverra at dignissim non, lacinia in purus. Maecenas
+          non
+          ipsum quis justo tincidunt efficitur. Pellentesque pulvinar cursus purus, eu hendrerit velit eleifend sit
+          amet.
+          Donec sed leo at metus dignissim dignissim vel id ante. Donec id vehicula libero.</p>
+      </div>
+    </article>
+    <hr class="Linje">
+    <!--MEET THE TEAM. Section 1-->
+    <section class="Bildisection">
       <section class="row" id="Bilderteam">
         <h2 class="paragraphtext">Meet the team</h2>
         <article class="col-2">
@@ -146,8 +156,8 @@
           <p>Professor</p>
         </article>
       </section>
-<!--slut-->
-<!--MEET THE TEAM. Section 2-->
+      <!--slut-->
+      <!--MEET THE TEAM. Section 2-->
       <section class="row" id="Bilderteam">
         <article class="col-2">
           <img src="images/asa.jpg" alt="xxx" width="100%" height="290px">
@@ -181,41 +191,42 @@
         </article>
       </section>
     </section>
-<!--slut-->
-<hr class="Linjesist">
-<footer class="Footerpadding">
-    <div class="row">
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">About Us</li>
-             <li>What we do</li>
-             <li><a id="JavaScroll" onclick="myFunction();">Who we are</a></li>
-           </ul>
-      </div>
+    <!--slut-->
+    <hr class="Linjesist">
+    <footer class="Footerpadding">
+      <div class="row">
+        <div class="col-sm-3">
+          <ul>
+            <li class="bold">About Us</li>
+            <li>What we do</li>
+            <li><a id="JavaScroll" onclick="myFunction();">Who we are</a></li>
+          </ul>
+        </div>
 
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">About You</li>
-             <li>Costumers</li>
-             <li>Latest</li>
-           </ul>
-      </div>
+        <div class="col-sm-3">
+          <ul>
+            <li class="bold">About You</li>
+            <li>Costumers</li>
+            <li>Latest</li>
+          </ul>
+        </div>
 
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">Adress</li>
-             <li>Ebbe Lieberathsgatan 18c</li>
-             <li>Göteborg</li>
-           </ul>
-      </div>
+        <div class="col-sm-3">
+          <ul>
+            <li class="bold">Adress</li>
+            <li>Ebbe Lieberathsgatan 18c</li>
+            <li>Göteborg</li>
+          </ul>
+        </div>
 
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">Copyright 2022 Google News</li>
+        <div class="col-sm-3">
+          <ul>
+            <li class="bold">Copyright 2022 Google News</li>
 
-           </ul>
-      </div>
-  </footer>
-  <script src="assets/js/functions.js"></script>
-  </body>
+          </ul>
+        </div>
+    </footer>
+    <script src="assets/js/functions.js"></script>
+</body>
+
 </html>
