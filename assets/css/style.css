@@ -563,11 +563,19 @@ body {
   padding-right: 8%;
 }
 
+/*------Bilder på teamet-----*/
 #Bilderteam {
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
+/*------Bilder på skolan-----*/
 .Bildskolanute {
+  margin-left: -20px;
+  width: 106%;
+  margin-bottom: 50px;
+}
+
+.bildskolaninne {
   margin-left: -20px;
   width: 106%;
   margin-bottom: 50px;
@@ -577,17 +585,13 @@ body {
   font-weight: 600;
 }
 
-.bildskolaninne {
-  margin-left: -20px;
-  width: 106%;
-  margin-bottom: 50px;
-}
-
+/*------Paragraph padding-----*/
 .paragraphtext {
   padding-left: 8%;
   padding-right: 8%;
 }
 
+/*------Line break-----*/
 .Linje {
   width: 200%;
   margin-left: -200px;
@@ -595,15 +599,23 @@ body {
   margin-bottom: 100px;
 }
 
+/*------Line break över footer-----*/
 .Linjesist {
   width: 200%;
   margin-left: -200px;
+}
+
+.whoweare h4 {
+  font-style: "Playfair Display", serif;
+  font-weight: 400;
 }
 
 .whoweare {
   margin-top: 30px;
   padding-left: 8%;
   padding-right: 8%;
+  font-style: "Playfair Display", serif;
+  font-weight: 400;
 }
 
 .teamp {
