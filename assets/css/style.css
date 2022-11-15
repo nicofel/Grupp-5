@@ -651,4 +651,9 @@ body {
   background: none;
 }
 
+/*------Länk footer-----*/
+a:link {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
