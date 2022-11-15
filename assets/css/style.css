@@ -667,4 +667,13 @@ a:link {
   text-decoration: none;
 }
 
+/*---RESPONSIV DESIGN--------------------------------------------------------*/
+/*Mobilversion -iPad Mini- (Upp till Mobil)*/
+@media (max-width: 480px) {
+  img {
+    max-width: 50%;
+    object-fit: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
