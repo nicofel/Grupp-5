@@ -669,11 +669,20 @@ a:link {
 
 /*---RESPONSIV DESIGN--------------------------------------------------------*/
 /*Mobilversion -iPad Mini- (Upp till Mobil)*/
+/*
 @media (max-width: 480px) {
-  img {
-    max-width: 50%;
-    object-fit: none;
+	.row img {
+	  	object-fit: none;
+			width: auto;
+		}
   }
-}
+
+	@media (max-width: 768px) {
+		.row img {
+				object-fit: none;
+				width: auto;
+			}
+	}
+	*/
 
 /*# sourceMappingURL=style.css.map */
