@@ -563,9 +563,17 @@ body {
   padding-right: 8%;
 }
 
+.Footerpadding {
+  padding-left: 6%;
+}
+
 /*------Bilder på teamet-----*/
 #Bilderteam {
   margin-top: 5px;
+}
+
+#Bilderteam h2 {
+  margin-top: 2px;
 }
 
 /*------Bilder på skolan-----*/
