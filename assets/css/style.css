@@ -559,7 +559,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  padding-left: 8%;
+  padding-left: 9%;
   padding-right: 8%;
 }
 
@@ -617,9 +617,19 @@ body {
 
 .whoweare {
   margin-top: 30px;
-  padding-left: 8%;
-  padding-right: 8%;
   font-style: "Playfair Display", serif;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.whoweare h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.whoweare p {
+  font-style: "Playfair Display";
+  font-size: 22px;
   font-weight: 400;
 }
 
