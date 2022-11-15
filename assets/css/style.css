@@ -535,32 +535,31 @@ body {
 /*------Google Maps-----*/
 .Googlemaps {
   margin: 0 auto;
+  margin-top: 38px;
 }
 
 /*------Get in Touch-----*/
 .getintouch {
-  width: 1185px;
-  height: 95px;
   margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
   padding-left: 8%;
-  padding-right: 8%;
+  margin-top: 59px;
+}
+
+.getintouch h4 {
+  font-size: 14px;
+  font-weight: 700;
 }
 
 #Tochheading {
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 30px;
-  width: 1233px;
-  height: 30px;
+  font-size: 25px;
   font-family: "Playfair Display";
-  font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  padding-left: 9%;
+  padding-left: 8%;
   padding-right: 8%;
+  margin-bottom: 38px;
 }
 
 .Footerpadding {
