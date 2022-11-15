@@ -591,12 +591,17 @@ body {
   padding-right: 8%;
 }
 
+.paragraphtext h2 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
 /*------Line break-----*/
 .Linje {
   width: 200%;
   margin-left: -200px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 /*------Line break över footer-----*/
@@ -618,15 +623,26 @@ body {
   font-weight: 400;
 }
 
-.teamp {
-  font-size: 19px;
-  font-weight: 600;
-  margin: 0 auto;
-}
-
 .Bildisection {
   padding-left: 8%;
   padding-right: 8%;
+}
+
+.Bildisection .paragraphtext {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.Bildisection h2 {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: -1px;
+}
+
+.Bildisection p {
+  font-style: "$secondary-font";
+  font-weight: 400;
 }
 
 #embed-map-display .text-marker .map-generator {
