@@ -576,13 +576,7 @@ body {
 }
 
 /*------Bilder på skolan-----*/
-.Bildskolanute {
-  margin-left: -20px;
-  width: 106%;
-  margin-bottom: 50px;
-}
-
-.bildskolaninne {
+.bildskolaninne, .Bildskolanute {
   margin-left: -20px;
   width: 106%;
   margin-bottom: 50px;
