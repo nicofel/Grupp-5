@@ -125,7 +125,7 @@ margin-bottom: 38px;
 
 .bold {
 	font-weight: 600;
-	
+
 
 }
 
@@ -167,12 +167,14 @@ margin-bottom: 38px;
 	margin-top: 30px;
 	font-style: $primary-font;
 	font-weight: 400;
-	margin-left: 100px;
+	padding-left: 7%;
+  padding-right: 8%;
 }
 
 .whoweare h2 {
 	font-size: 25px;
 	font-weight: 400;
+	line-height: 32px;
 }
 
 .whoweare p {
@@ -216,6 +218,28 @@ margin-bottom: 38px;
 /*------Länk footer-----*/
 a:link {
 	text-decoration: none;
+
+}
+
+.whoweare .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.General .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.container {
+	height: 95px;
+}
+
+.General .container img {
+	margin-top: 45px;
 
 }
 
