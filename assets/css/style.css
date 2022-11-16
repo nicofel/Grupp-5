@@ -681,6 +681,12 @@ a:link {
   justify-content: space-between;
 }
 
+.General {
+  width: 1185px;
+  padding: 8%;
+  padding-right: 8%;
+}
+
 .container {
   height: 95px;
 }
