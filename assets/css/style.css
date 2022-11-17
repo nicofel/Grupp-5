@@ -159,6 +159,9 @@ a:hover, a:active, a:visited {
   /*#header h1*/
   /*Close nav#menu*/
 }
+#header .vanligpadding {
+  padding-left: 2rem;
+}
 @media screen and (max-width: 1190px) {
   #header {
     padding: 2%;
