@@ -27,6 +27,24 @@ body {
   object-fit: cover;
 }
 
+section .menu {
+	margin-bottom: -15px;
+	margin-top: -10px;
+}
+
+
+
+.vanligpadding {
+  width: 800px;
+	padding-left: 4%;
+	font-weight: bolder;
+}
+
+#Lowercase {
+	font-size: 19px;
+	text-transform: none;
+}
+
 @media screen and (max-width : 1024px) {
 
 	/*All Devices*/
@@ -170,7 +188,16 @@ justify-content: space-around;
 	margin-left: -200px;
 }
 
+.Linjenavbar {
+	width: 200%;
+	margin-left: -100px;
+	margin-top: -4px;
+	margin-bottom: -5px;
+}
 
+#copyright {
+	margin-right:25px;
+}
 
 .whoweare h4 {
 	font-style: $primary-font;

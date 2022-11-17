@@ -2,8 +2,10 @@
 
 #header {
   margin: -2% -1% 0 -1%;
-  width: 102%;
-  height: 100px;
+  width: 110%;
+  margin-left: -100px;
+  margin-top: 10px;
+  height: auto;
   overflow: hidden;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   background: white;
@@ -15,6 +17,11 @@
     height: auto;
     position: relative;
   }
+
+
+.header #menuFunction{
+  margin-left: -210px;
+}
 
   #branding {
     padding: 1%;
