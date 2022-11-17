@@ -157,6 +157,7 @@ a:hover, a:active, a:visited {
   overflow: hidden;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   background: white;
+  padding-left: 8%;
   /*Breakpoint for when menu can't fit the screen anymore*/
   /*#header h1*/
   /*Close nav#menu*/
@@ -512,7 +513,7 @@ section .menu {
 
 .vanligpadding {
   width: 800px;
-  padding-left: 4%;
+  padding-left: 8%;
   font-weight: bolder;
 }
 
@@ -577,8 +578,7 @@ section .menu {
   font-size: 25px;
   font-family: "Playfair Display";
   font-weight: 400;
-  font-size: 25px;
-  padding-left: 8%;
+  padding-left: 8.5%;
   padding-right: 8%;
   margin-bottom: 38px;
 }
