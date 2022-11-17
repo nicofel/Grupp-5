@@ -246,7 +246,6 @@ a:hover, a:active, a:visited {
 #header nav#menu ul li {
   display: inline-block;
   vertical-align: middle;
-  text-transform: uppercase;
   font-weight: bold;
   margin: 0 1%;
   /*Breakpoint for when menu can't fit the screen anymore*/
