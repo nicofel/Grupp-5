@@ -139,6 +139,7 @@ a {
   transition: 0.5s;
   /*Taken fomr mixin.scss*/
   cursor: pointer;
+  font-family: "Playfair Display", serif;
 }
 a:hover, a:active, a:visited {
   color: #16315e;

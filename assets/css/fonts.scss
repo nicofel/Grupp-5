@@ -78,7 +78,9 @@ a {
 	text-decoration:none;
   @include transition(.5s); /*Taken fomr mixin.scss*/
   cursor:pointer;
-
+  font: {
+    family: $primary-font;
+  }
   &:hover,
   &:active,
   &:visited {
