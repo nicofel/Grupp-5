@@ -150,8 +150,10 @@ a:hover, a:active, a:visited {
 /*! HEADER STYLES */
 #header {
   margin: -2% -1% 0 -1%;
-  width: 102%;
-  height: 100px;
+  width: 110%;
+  margin-left: -100px;
+  margin-top: 10px;
+  height: auto;
   overflow: hidden;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   background: white;
@@ -166,6 +168,9 @@ a:hover, a:active, a:visited {
     height: auto;
     position: relative;
   }
+}
+#header .header #menuFunction {
+  margin-left: -210px;
 }
 #header #branding {
   padding: 1%;
@@ -500,6 +505,22 @@ body {
   object-fit: cover;
 }
 
+section .menu {
+  margin-bottom: -15px;
+  margin-top: -10px;
+}
+
+.vanligpadding {
+  width: 800px;
+  padding-left: 4%;
+  font-weight: bolder;
+}
+
+#Lowercase {
+  font-size: 19px;
+  text-transform: none;
+}
+
 @media screen and (max-width: 1024px) {
   /*All Devices*/
   html.touch *:hover {
@@ -620,6 +641,17 @@ body {
 .Linjesist {
   width: 200%;
   margin-left: -200px;
+}
+
+.Linjenavbar {
+  width: 200%;
+  margin-left: -100px;
+  margin-top: -4px;
+  margin-bottom: -5px;
+}
+
+#copyright {
+  margin-right: 25px;
 }
 
 .whoweare h4 {

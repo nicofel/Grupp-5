@@ -15,13 +15,14 @@
 
 <body>
     <section role="main" id="wrapper">
+      <section class="vanligpadding">
+      <h1>Google News</h1>
+      </section>
+ <hr class="Linjenavbar">
       <!--Header-->
       <header id="header" class="header">
-        <div id="branding">
-          <img src="assets/google-logo-animation.gif" alt="Google Logo">
-        </div>
-        <h1>News</h1>
         <!--Menu-->
+        <section>
         <nav id="menu" class="menu">
           <ul>
             <li>
@@ -37,7 +38,7 @@
               <a id="Lowercase" href="/Careers">Career</a>
             </li>
             <li>
-              <a href="/Investor-relations">IR</a>
+              <a id="Lowercase" href="/Investor-relations">IR</a>
             </li>
             <li>
               <a id="Lowercase" href="/Latest" class="current">Latest</a>
@@ -53,6 +54,7 @@
             </li>
           </ul>
         </nav>
+      </section>
       </header>
             <!--Menu-->
 <img src="Skolan_bild.png" class="bildskolaninne" alt="Entrén IT Högskolan">
@@ -185,39 +187,47 @@
     </section>
 <!--slut-->
 <hr class="Linjesist">
-<footer class="Footerpadding">
-    <div class="row">
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">About Us</li>
-             <li>What we do</li>
-             <li><a id="JavaScroll" onclick="myFunction();">Who we are</a></li>
-           </ul>
-      </div>
+<footer >
 
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">About You</li>
-             <li>Costumers</li>
-             <li>Latest</li>
-           </ul>
-      </div>
+  <div class="links">
+    <div>
+       <ul>
+         <li class="bold">About Us</li>
+         <li>What we do</li>
+         <li>Who we are</li>
+       </ul>
 
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">Adress</li>
-             <li>Ebbe Lieberathsgatan 18c</li>
-             <li>Göteborg</li>
-           </ul>
-      </div>
+</div>
+ <div>
+       <ul>
+         <li class="bold">About You</li>
+         <li>Costumers</li>
+         <li>Latest</li>
+       </ul>
+ </div>
 
-      <div class="col-sm-3">
-           <ul>
-             <li class="bold">Copyright 2022 Google News</li>
+<div id="adress">
+       <ul>
+         <li class="bold adress">Adress</li>
+         <li>Ebbe Lieberathsgatan 18c</li>
+         <li>Göteborg</li>
+       </ul>
+  </div>
 
-           </ul>
-      </div>
-  </footer>
+
+  <div id="copyright">
+       <ul>
+         <li class="bold" >Copyright 2022 Google News</li>
+       </ul>
+  </div>
+</div>
+
+
+
+
+
+
+</footer>
   <script src="assets/js/functions.js"></script>
   <script src="assets/js/menu.js"></script>
   <script src="assets/js/requests.js"></script>
