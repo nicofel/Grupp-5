@@ -564,8 +564,12 @@ body {
 
 .links {
   display: flex;
-  justify-content: space-between;
-  padding: 0;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+#adress {
+  margin-right: 17%;
 }
 
 #copyright {
